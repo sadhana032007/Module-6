@@ -23,7 +23,21 @@ To implement **Encapsulation** in Python by defining a class `Rectangle` with **
 ---
 
 ## 💻 Program
+```
+class Rectangle:
+   def __init__(self, length, breadth):
+        self.__length = length     
+        self.__breadth = breadth
+        print("Length:", self.__length)
+        print("Breadth:", self.__breadth)
+
+rect1 = Rectangle(10, 5)
+```
+
 
 ## Output
 
+<img width="1892" height="659" alt="Screenshot 2025-10-19 100136" src="https://github.com/user-attachments/assets/bccca8b1-07d0-41c9-9e6a-af4fec8fa470" />
+
 ## Result
+The Python OOP: Encapsulation with Private Members is executed successfully.
